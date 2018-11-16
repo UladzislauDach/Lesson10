@@ -1,4 +1,4 @@
-public class Animal {
+public abstract class Animal {
     private boolean isVegetarian;
     protected String food;
 
@@ -17,5 +17,6 @@ public class Animal {
     public String getFood() {
         return food;
     }
+    public abstract void move();
 
 }

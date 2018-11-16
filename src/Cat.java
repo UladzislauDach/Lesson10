@@ -7,4 +7,7 @@ public class Cat extends Animal {
     public String getPoroda(){
         return poroda;
     }
+    public void move (){
+        System.out.println("Like a cat");
+    }
 }
